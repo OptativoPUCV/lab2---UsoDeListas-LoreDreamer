@@ -38,3 +38,9 @@ exercises.c:71:5: error: ‘dato’ undeclared (first use in this function); did
 exercises.c:71:5: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 1091138
+Wed 20 Mar 2024 04:52:34 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|2
+total_score: 40/70
+847bdf7
