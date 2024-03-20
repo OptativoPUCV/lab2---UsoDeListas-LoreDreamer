@@ -26,3 +26,15 @@ Wed 20 Mar 2024 04:51:09 PM UTC:
  tests:  3|2
 total_score: 40/70
 d6e2ccf
+Wed 20 Mar 2024 04:52:25 PM UTC: 
+ exercises.c | 12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaLista’:
+exercises.c:71:5: error: ‘dato’ undeclared (first use in this function); did you mean ‘data’?
+   71 |     dato = (int*)next(L);
+      |     ^~~~
+      |     data
+exercises.c:71:5: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+1091138

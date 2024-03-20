@@ -47,9 +47,9 @@ List* crea_lista() {
 
    for (size_t i = 1; i <= 10; i++) {
 
-      int* dato = (int*) malloc(sizeof(int));
-      *dato = i;
-      pushBack(L, dato);
+      int* data = (int*) malloc(sizeof(int));
+      *data = i;
+      pushBack(L, data);
      
    }
    return L;
@@ -63,11 +63,11 @@ retorne la suma de sus elementos.
 int sumaLista(List *L) {
 
   int sum = 0;
-  int *dato = (int*)first(L);
+  int *data = (int*)first(L);
 
-  while (dato != NULL) {
+  while (data != NULL) {
 
-    sum += *dato;
+    sum += *data;
     dato = (int*)next(L);
     
   }
