@@ -86,3 +86,13 @@ Wed 20 Mar 2024 05:07:51 PM UTC:
  tests:  9|0
 total_score: 70/70
 ed2e12e
+Wed 20 Mar 2024 05:15:18 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:158:24: error: expected expression before ‘)’ token
+  158 |               else if ()
+      |                        ^
+Compilation failed
+5bef743
